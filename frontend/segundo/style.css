@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilização do corpo */
+
 body {
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body {
     color: white;
 }
 
-/* Container do formulário */
+
 .container {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
@@ -27,12 +27,11 @@ body {
     text-align: center;
 }
 
-/* Títulos */
 h2 {
     margin-bottom: 15px;
 }
 
-/* Estilização do formulário */
+
 form {
     display: flex;
     flex-direction: column;
@@ -52,7 +51,7 @@ input, textarea {
     font-size: 1em;
 }
 
-/* Botão */
+
 button {
     margin-top: 15px;
     padding: 10px;
@@ -69,7 +68,7 @@ button:hover {
     background: #e0568f;
 }
 
-/* Botão de voltar */
+
 .btn {
     display: inline-block;
     margin-top: 15px;
