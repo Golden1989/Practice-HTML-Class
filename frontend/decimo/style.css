@@ -1,0 +1,95 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #ff9a9e, #a18cd1);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Container de Filmes */
+.filmes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card de Filme */
+.filme {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+.filme h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Vídeos */
+video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Avaliação com Estrelas */
+.rating {
+    margin-top: 10px;
+}
+
+.rating span {
+    font-weight: bold;
+}
+
+/* Estilização das Estrelas */
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Cor das estrelas selecionadas */
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ff9a9e;
+    color: white;
+    border-radius: 10px;
+}
