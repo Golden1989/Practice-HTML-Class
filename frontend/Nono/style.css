@@ -1,11 +1,11 @@
-/* Reset Básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalho */
+
 header {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
     color: white;
@@ -32,7 +32,7 @@ header p {
     margin-top: 5px;
 }
 
-/* Player de Áudio */
+
 .player {
     margin: 20px auto;
     padding: 20px;
@@ -47,7 +47,7 @@ audio {
     margin-top: 10px;
 }
 
-/* Tabela de Episódios */
+
 .tabela-container {
     margin-top: 20px;
     background-color: white;
@@ -80,7 +80,7 @@ td {
     background-color: #fff5f7;
 }
 
-/* Rodapé */
+
 footer {
     margin-top: 20px;
     padding: 15px;
