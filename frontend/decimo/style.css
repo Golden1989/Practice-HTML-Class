@@ -1,11 +1,11 @@
-/* Reset Básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #141414;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalho */
+
 header {
     background: linear-gradient(135deg, #ff9a9e, #a18cd1);
     padding: 25px;
@@ -26,7 +26,7 @@ header h1 {
     font-size: 2.5em;
 }
 
-/* Container de Filmes */
+
 .filmes-container {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ header h1 {
     margin-top: 20px;
 }
 
-/* Card de Filme */
+
 .filme {
     background-color: #222;
     padding: 20px;
@@ -50,14 +50,14 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Vídeos */
+
 video {
     width: 100%;
     border-radius: 10px;
     margin-top: 10px;
 }
 
-/* Avaliação com Estrelas */
+
 .rating {
     margin-top: 10px;
 }
@@ -66,7 +66,7 @@ video {
     font-weight: bold;
 }
 
-/* Estilização das Estrelas */
+
 .rating input {
     display: none;
 }
@@ -78,14 +78,14 @@ video {
     transition: color 0.3s;
 }
 
-/* Cor das estrelas selecionadas */
+
 .rating input:checked ~ label,
 .rating label:hover,
 .rating label:hover ~ label {
     color: gold;
 }
 
-/* Rodapé */
+
 footer {
     margin-top: 20px;
     padding: 15px;
