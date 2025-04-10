@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagens</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Galeria de Imagens – Lugares em Nova York</h1>
+
+    <!-- Galeria em Grade -->
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg" class="img-fluid img-thumbnail" alt="Estátua da Liberdade">
+        <p class="text-center mt-2">Estátua da Liberdade</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/97/38/c7/one-of-my-favourite-places.jpg?w=1200&h=1200&s=1" class="img-fluid img-thumbnail" alt="Times Square">
+        <p class="text-center mt-2">Times Square</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://image.visitenovayork.com.br/wp-content/uploads/2013/02/Central-Park.jpg" class="img-fluid img-thumbnail" alt="Central Park">
+        <p class="text-center mt-2">Central Park</p>
+      </div>
+    </div>
+
+    <!-- Carrossel -->
+    <h2 class="text-center my-5">Carrossel de Imagens</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg" class="d-block w-100" alt="Estátua da Liberdade">
+        </div>
+        <div class="carousel-item">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/97/38/c7/one-of-my-favourite-places.jpg?w=1200&h=1200&s=1" class="d-block w-100" alt="Times Square">
+        </div>
+        <div class="carousel-item">
+          <img src="https://image.visitenovayork.com.br/wp-content/uploads/2013/02/Central-Park.jpg" class="d-block w-100" alt="Central Park">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
